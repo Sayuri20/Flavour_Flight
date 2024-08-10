@@ -2,14 +2,14 @@
     height: 34vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background-size: auto;
     position: relative;
 }
 .header-contents{
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 1.5vw;
     max-width: 50%;
     bottom: 10%;
@@ -37,6 +37,7 @@
     background-color: white;
     font-size: max(1vw,13px);
     border-radius: 50px;
+     
 }
 @media (max-width:1050px) {
      .header-contents{
